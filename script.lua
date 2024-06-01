@@ -35,7 +35,7 @@ submitBtn.on_click(function()
     end
 
     if guess == targetNumber then
-        result.set_content("You guessed it! The number was " .. targetNumber .. "." .. "You used " .. (4 - guessesLeft) .. " guesses.")
+        result.set_content("You guessed it! The number was " .. targetNumber .. "." .. "You used " .. (6 - guessesLeft) .. " guesses.")
         inGame = false
     elseif guess < targetNumber then
         guessesLeft = guessesLeft - 1
